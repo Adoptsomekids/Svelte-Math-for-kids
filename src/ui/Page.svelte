@@ -15,10 +15,10 @@
     Made with
     <span>♥️</span>
     by
-    <a href="https://koenvangilst.nl">Koen van Gilst</a>
+    <a href="https://github.com/Adoptsomekids">Emilio Giacomo(Adoptsomekids)</a>
     <br />
     Source code on
-    <a href="https://github.com/vnglst/tafels.app">Github</a>
+    <a href="https://github.com/Adoptsomekids/Svelte-Math-for-kids">Github</a>
     <br />
     v. {process.env.APP_VERSION} git {process.env.COMMIT_HASH}
   </footer>
