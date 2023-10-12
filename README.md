@@ -1,15 +1,20 @@
-# Tafels.App
+# Hola Svelte 😸 - Svelte MathApp for kids
 
-A simple game to teach kids basic math (multiplication tables, additions, etc.)
+   ![Badge en Desarollo](https://img.shields.io/badge/STATUS-Desarrollo%20Completo-blue)
+   ![Badge](https://img.shields.io/pypi/status/aiogram.svg?style=flat-square)
 
-Made with:
+_Emilio Josafat Giacomo Quintero - Programación para Internet 2023B_
 
-- `svelte` and `sapper`🎆
-- nice animations and page transitions 🍡
-- service workers 🌐
-- web Audio with Howler 🎺
-- UI + colors based on book Refactoring UI 🎉
-- the avatars are from <a href="https://bigheads.io" target="_blank">bigheads.io</a> made by <a href="https://twitter.com/robertbrosma">@robertbrosma</a>
+## Comenzando 🚀
+
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+
+Mira **Deployment** para conocer como desplegar el proyecto.
+
+
+### Pre-requisitos 📋
+
+_Que cosas necesitas para instalar el software_
 
 ## Development
 
@@ -29,27 +34,50 @@ yarn export
 git push # 😸
 ```
 
-## About Sapper and Svelte
+## Despliegue 📦
 
-Needs some polishing here and there (lots of bug fixes with every new version) but in general it's pretty cool. Less code & a faster user experience. Built-in animations are a big win (always a pain with React) and the routing solution that Sapper offers (also for SPA's) is a godsend compared to React Router.
+_Deployment desde Netlify o localhost_
 
-I think it's very hard to beat Next.js' developer experience. The Next team has been really killing it with new features lately. So I think Sappers appeal comes mainly from... Svelte 😆.
+![image](https://github.com/Adoptsomekids/Svelte-Math-for-kids/assets/83385717/b846487c-f7a9-4b23-9391-c48f315687b5)
 
-But there are a few things I like: you can just use <a href=... and it (more of less) just works. No need for special <Link to /> components. Code splittings works well, and with Svelte being so small, you end up with tiny bundle sizes. However I did have to add/create a loader myself for when the Javascript was being loading (it's the blue top bar). This seems like something the framework should add add out of the box, otherwise users on slow connections might be wondering why their click on a link doesn't do anything.
+![image](https://github.com/Adoptsomekids/Svelte-Math-for-kids/assets/83385717/82d159a4-a1c2-4439-be9f-c88d9e9c3c9f)
 
-Developing with Service Workers turned on (i.e. in dev mode) really works well with Sapper too, not sure how they're doing that!
+_Challenge seleccionado_
 
-### What I didn't like
-- you can't (easily) pass classes to child components (I had to make them global to make it work).
-- multiple slots per component are nice, but they have to be DOMElements, so you end up putting extra spans and divs around Components to use them as slots
-- animations are only available on DOM elements, so you can't create a basic component (i.e. a Button) and add animations only in one of the parent components. This hinders composition somewhat I my opninion.
+![image](https://github.com/Adoptsomekids/Svelte-Math-for-kids/assets/83385717/3d63f46e-8b3a-4efc-b487-3117c233e72d)
 
-## PWA tips
+_Challenge superado / Forward_
 
-- Tried using pwacompat but it wasn't doing much for me on iOS/Safari. I also don't like the idea of using JavaScript to fix issues that can be fixed by adding the correct icons. That's something you'd have to do 1 time for you app using a tool like: https://app-manifest.firebaseapp.com/. I'm still using pwacompat for the splashscreens, though.
+![image](https://github.com/Adoptsomekids/Svelte-Math-for-kids/assets/83385717/9b4f34c2-8d99-433d-9533-aa94e2a9f044)
 
-## Credits
+_Modificación de avatar - Username / Registro de errores_
 
-- Sound files (squakk + nock + restart): https://freesound.org/people/yawfle/packs/367/
-- Sound file HooYeah by LemonJolly: https://freesound.org/people/lemonjolly/sounds/273925/
-- Icons: Refactoring UI
+![image](https://github.com/Adoptsomekids/Svelte-Math-for-kids/assets/83385717/10a9c26b-96c1-4e89-b53f-d1fcbfafe201)
+
+### Pruebas de estilo de codificación ⌨️
+
+_Principal index.Svelte & Service worker_
+
+![image](https://github.com/Adoptsomekids/Svelte-Math-for-kids/assets/83385717/696c2b31-fe98-43ac-9d4c-936bc5fb5ee0)
+
+_Service worker_
+
+![image](https://github.com/Adoptsomekids/Svelte-Math-for-kids/assets/83385717/401b2389-f861-4e31-bacd-cc062d68bd6e)
+
+## Construido con 🛠️
+
+* [Svelte](https://svelte.dev/) -  Front-end component framework
+* [Netlify](https://www.netlify.com/) -  Hosting platform
+* [Visual Studio Code](https://code.visualstudio.com/) - Editor de Código
+* [TypeScript](https://www.typescriptlang.org/) - Programming language
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Programming language
+* [HTML](https://html.com/document/) - Programación web
+*  Avatars creados con <a href="https://bigheads.io" target="_blank">bigheads.io</a>
+
+
+## Autor ✒️
+
+* **Emilio Josafat Giacomo Quintero** - *Desarrollo* - [Adoptsomekids](https://github.com/Adoptsomekids)
+
+---
+⌨️ con ❤️ por [Adoptsomekids](https://github.com/Adoptsomekids) 😸
