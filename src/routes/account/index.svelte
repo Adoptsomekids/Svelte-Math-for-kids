@@ -63,34 +63,32 @@
     <h2 slot="header" class="m-8 text-4xl">About</h2>
     <div class="p-10 text-lg text-center">
       <p>
-        Tafels.app was created by
-        <a href="https://koenvangilst.nl">Koen van Gilst</a>
-        using Sapper and Svelte.
+        Svelte Maths para niños fue creada por:
+        <a href="https://github.com/Adoptsomekids">Emilio Giacomo(Adoptsomekids)</a>
+        usando Sapper and Svelte.
       </p>
       <p class="mt-2">
-        The avatars are from
+        Avatares creados con
         <a href="https://bigheads.io" target="_blank">bigheads.io</a>
-        made by
-        <a href="https://twitter.com/robertbrosma">@robertbrosma</a>
       </p>
       <div class="m-12">
-        <a href="https://www.buymeacoffee.com/vnglst" target="_blank">
+        <a href="https://github.com/Adoptsomekids" target="_blank">
           <img
             src="https://cdn.buymeacoffee.com/buttons/default-green.png"
-            alt="Buy Me A Coffee"
+            alt="¿Me donas un cafesito?"
           />
         </a>
       </div>
 
-      <p class="my-4">🚧 Work in Progress 🚧</p>
+      <p class="my-4">🚧 Trabajo en progreso para el tío Michel 🚧</p>
       <p>
-        <a href="https://github.com/vnglst/tafels.app">Source code on Github</a>
+        <a href="https://github.com/Adoptsomekids/Svelte-Math-for-kids">Source code on Github</a>
       </p>
     </div>
     <div slot="footer" class="p-5 text-center bg-red-100 rounded-b-lg">
       <button
         on:click={(e) => {
-          const sure = confirm("Cannot be undone, are you sure?");
+          const sure = confirm("Chale, esto no se puede deshacer, are you sure?");
           if (sure) {
             localStorage.clear();
             window.location.reload();
