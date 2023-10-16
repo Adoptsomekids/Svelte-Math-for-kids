@@ -81,7 +81,7 @@ _Service worker_
 
 * ## Colaborador
   
-* **SheLovesDikinBaus** - *Desarrollo / Implementación de readme* - [SheLovesDikinBaus](https://github.com/SheLovesDikinBaus)
+* **SheLovesDikinBaus** - *Desarrollo / Implementación de readme  & avatars* - [SheLovesDikinBaus](https://github.com/SheLovesDikinBaus)
 
 ---
 ⌨️ con ❤️ por [Adoptsomekids](https://github.com/Adoptsomekids) 😸
