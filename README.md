@@ -79,5 +79,8 @@ _Service worker_
 
 * **Emilio Josafat Giacomo Quintero** - *Desarrollo* - [Adoptsomekids](https://github.com/Adoptsomekids)
 
+* ## Colaborador
+* **aa** - *Desarrollo* - [Adoptsomekids](https://github.com/Adoptsomekids)
+
 ---
 ⌨️ con ❤️ por [Adoptsomekids](https://github.com/Adoptsomekids) 😸
