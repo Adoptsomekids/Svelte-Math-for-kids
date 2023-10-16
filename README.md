@@ -77,11 +77,11 @@ _Service worker_
 
 ## Autor ✒️
 
-* **Emilio Josafat Giacomo Quintero** - *Desarrollo* - [Adoptsomekids](https://github.com/Adoptsomekids)
+* **Emilio Josafat Giacomo Quintero** - *Desarrollo / Codificación* - [Adoptsomekids](https://github.com/Adoptsomekids)
 
 * ## Colaborador
   
-* **SheLovesDikinBaus** - *Desarrollo* - [SheLovesDikinBaus](https://github.com/SheLovesDikinBaus)
+* **SheLovesDikinBaus** - *Desarrollo / Implementación de readme* - [SheLovesDikinBaus](https://github.com/SheLovesDikinBaus)
 
 ---
 ⌨️ con ❤️ por [Adoptsomekids](https://github.com/Adoptsomekids) 😸
